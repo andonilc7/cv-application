@@ -1,0 +1,22 @@
+.input-cont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+  border: 0;
+  background-color: rgb(246, 246, 246);
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 0;
+  background-color: rgb(246, 246, 246);
+  border-radius: 5px;
+  resize: none;
+}

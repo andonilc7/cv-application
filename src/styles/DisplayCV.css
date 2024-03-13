@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.cv-display  {
+  padding: .5in;
+  border: 1px solid black;
+  font-family: 'EB Garamond';
+  width: 8.5in;
+  height: 11in;
+  line-height: 1;
+}
+
+.section-header {
+  border-bottom: 1px solid black;
+  font-size: 16px;
+}
+
+/* gen info display section */
+.name {
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.other-gen-info {
+  display: flex;
+  justify-content: center;
+}
+
+.other-gen-info * {
+  margin: 0 3px;
+}
+
+.gen-info-display {
+  margin-bottom: 15px;
+}
+
+
+/* education info display section */
+.edu-content-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edu-info-display {
+  margin-bottom: 15px;
+}
+
+
+/* work experience display section */
+.experience-display {
+  margin-bottom: 8px;
+}
+
+.experience-split {
+  display: flex;
+  justify-content: space-between;
+}

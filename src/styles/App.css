@@ -1,0 +1,28 @@
+
+.overall-cont {
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+
+}
+
+.forms-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.website-title {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  width: 85%;
+  border-radius: 20px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 2px 2px 2px rgba(0,0,0,.05);
+  padding: 20px;
+  font-size: 2.4em;
+}
