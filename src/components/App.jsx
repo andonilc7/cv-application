@@ -166,8 +166,6 @@ export default function App() {
   function handleDeleteExperience(e, id) {
     setExperiences(experiences.filter(experience => experience.id !==id ));
     setSubmittedExperiences(submittedExperiences.filter(experience => experience.id !==id ));
-    console.log(experiences)
-    console.log(submittedExperiences)
   }
 
 
