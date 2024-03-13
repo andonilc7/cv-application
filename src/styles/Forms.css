@@ -4,9 +4,9 @@
   border-radius: 5px;
   border: 1px solid grey;
   padding: 25px;
-  
+
   /* this fixes the safari bug where still shows old border when dynamially resizes */
-  /* basically just forces a repaint of the element */
+  /* basically just forces a reflow and repaint of the element */
   transform: translateZ(0);
 }
 
